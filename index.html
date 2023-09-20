@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação 2º grau</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dist/styles/main.min.css">
+
+</head>
+<body>
+    <main>
+   
+        <h2>Raízes da equação de 2º grau</h2>
+        <form action="" id="form-sorteador">
+            <div>
+                <img src="dist/img/equação.png" alt="">
+                <h5>Sendo os coeficientes a, b e c números reais e a ≠ 0</h5>
+                <table>
+                    <tr>
+                        <td>Valor de <b>a</b> = </td>
+                        <td><input type="number" name="numero-maximo" id="numero-a" required> </td>
+                        <td>Valor de <b>b</b>= </td>
+                        <td><input type="number" name="numero-maximo" id="numero-b" required> </td>
+                        <td>Valor de <b>c</b>= </td>
+                        <td><input type="number" name="numero-maximo" id="numero-c" required> </td>
+                    </tr>
+                </table>
+             
+                
+            </div>
+            <button type="submit">Calcular raízes</button>
+        </form>
+        <div class="resultado">
+            <h3>RESPOSTA: </h3> <span id="valor-sorteador"></span>
+        </div>
+    </main>
+   <!-- Endereco -->
+    <script src="dist/scripts/main.min.js"></script>
+</body>
+</html>
