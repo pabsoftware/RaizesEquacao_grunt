@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
         } else if ( delta == 0) {
             
             x1 = (-coeficienteB) /(2 * coeficienteA);
-            resposta =  "As raízes da equação é " + x1.toFixed(1);
+            resposta =  "A raíz da equação é " + x1.toFixed(1);
 
         } else {
             resposta =  "Não há raízes reais";
